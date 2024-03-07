@@ -1,1 +1,26 @@
-git
+.box {
+    height: 100px;
+    width: 300px;
+    border: 3px solid black;
+    background: whitesmoke;
+  }
+.container {
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+}
